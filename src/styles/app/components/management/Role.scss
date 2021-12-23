@@ -1,0 +1,128 @@
+@import '@/styles/variables.scss';
+
+.management-role-container {
+  .ant-card {
+    &.ant-card-bordered {
+      .ant-card-head-wrapper {
+        .ant-card-extra {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .ant-transfer {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    justify-content: space-between;
+    align-content: flex-start;
+
+    &-list {
+      border: none;
+      width: auto;
+      height: auto;
+      flex: 1 1 50%;
+      padding: 20px;
+      border-radius: 0 0 4px 4px;
+
+      &-header {
+        padding: 56px 0 0;
+        border: none;
+        top: auto;
+        left: auto;
+        height: 100px;
+        width: calc(100% - 40px);
+
+        &-title {
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-size: 19px;
+          display: inline-block;
+          font-family: 'FontLight';
+          right: auto;
+          padding: 1px 5px;
+          border-bottom: 1px solid $text-color;
+        }
+        .ant-checkbox-wrapper {
+          & + span {
+            font-family: 'FontBold';
+          }
+        }
+      }
+
+      &:last-child {
+        background-color: $btn-default-bg;
+
+        .ant-transfer-list-header {
+          background-color: $btn-default-bg;
+        }
+      }
+
+      &-body {
+        &.ant-transfer-list-body {
+          padding-top: 110px;
+        }
+        &-search {
+          &-wrapper {
+            top: 39px;
+            left: 15%;
+            width: calc(100% - 60%);
+            z-index: 100;
+
+            .ant-input {
+              background: transparent;
+              &::placeholder {
+                color: transparent;
+              }
+            }
+          }
+        }
+      }
+      &-content {
+        &-item {
+          font-size: 12px;
+        }
+      }
+    }
+    &-disabled {
+      .ant-transfer-list {
+        background: transparent;
+        &:last-child {
+          background-color: $btn-default-bg;
+        }
+      }
+    }
+    &-operation {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: calc(100% - 16px);
+      height: 101px;
+      .ant-btn {
+        position: absolute;
+        bottom: 0;
+        z-index: 50;
+        width: 82px;
+        height: 30px;
+        margin: 0;
+
+        .anticon {
+          display: none;
+
+          & + span {
+            margin-left: 0;
+          }
+        }
+        &:first-child {
+          left: 27%;
+          margin-bottom: 0;
+        }
+        &:last-child {
+          right: 15%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="grid_solar_img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 98 48" style="enable-background:new 0 0 92 45.98;" xml:space="preserve">
+<style type="text/css">
+	.st0_gtos {
+		animation: colorchange6 4s linear infinite;
+		transform: scale(2.8);
+	}
+	.st1_gtos {
+		fill:none;
+		stroke:url(#패스_4_1_);
+		stroke-linecap:round;
+		stroke-width: 3px;		
+		stroke-dasharray: 10;
+		stroke-dashoffset: 0;
+		animation:dash6 10s linear infinite;
+	}
+	.triangle_gtos {
+		transform: rotate(90deg);
+		offset: path('M3.33,15.97V46.73H90.26');
+		animation: moveto6 4s linear infinite;
+	}
+	@keyframes moveto6 {
+		from {
+			offset-distance: 0%;
+		}
+		to {
+			offset-distance: 100%;
+		}
+	}
+	@keyframes colorchange6 {
+		from {
+			fill: #007EFC;
+		}
+		to {
+			fill: #FFC000;
+		}
+	}	
+	@keyframes dash6 {
+		to {
+			stroke-dashoffset: 400;
+		}
+	}
+</style>
+<linearGradient id="패스_363_1_" gradientUnits="userSpaceOnUse" x1="111.9431" y1="-129.091" x2="113.5051" y2="-132.722" gradientTransform="matrix(5.053 0 0 -3.032 -379.053 -131.4968)">
+	<stop  offset="0" style="stop-color:#007EFC"/>
+	<stop  offset="1" style="stop-color:#FFC000"/>
+</linearGradient>
+<linearGradient id="패스_4_1_" gradientUnits="userSpaceOnUse" x1="2.8306" y1="24.7483" x2="90.7556" y2="24.7483">
+	<stop  offset="0" style="stop-color:#007EFC"/>
+	<stop  offset="1" style="stop-color:#FFC000"/>
+</linearGradient>
+<path id="패스_4" class="st1_gtos" d="M90.26,46.73H7.33V2.97"/>
+<g class="wrapper" style="transform: translate(13.2px, -9.2px);">
+<g class="triangle_gtos">
+<path id="패스_363" class="st0_gtos" d="M3.31,1.25L0.8,4.28h5.05L3.31,1.25z"/>
+</g>
+</g>
+</svg>

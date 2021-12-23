@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="home_solar_img_pv" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 90 190" style="enable-background:new 0 0 92 45.98;" xml:space="preserve">
+<style type="text/css">
+	.st0_htos_pv {
+		animation: colorchangePv2 4s linear infinite;
+		transform: scale(2);
+	}
+	.st1_htos_pv {
+		fill:none;
+		stroke:url(#패스_4_1_);
+		stroke-linecap:round;
+		stroke-width: 3px;
+		stroke-dasharray: 10;
+		stroke-dashoffset: 0;
+		animation:dashPv2 10s linear infinite;
+	}
+	.triangle_htos_pv {
+		transform: rotate(90deg);
+		offset: path('M58.53,190.97V27.03H-20.26');
+		animation: movetoPv2 4s linear infinite;
+	}
+	@keyframes movetoPv2 {
+		from {
+			stroke: #02BB27;
+			offset-distance: 0%;
+		}
+		to {
+			stroke: #FFC000;
+			offset-distance: 100%;
+		}
+	}
+	@keyframes colorchangePv2 {
+		from {
+			fill: #02BB27;
+		}
+		to {
+			fill: #FFC000;
+		}
+	}
+	@keyframes dashPv2 {
+		to {
+			stroke-dashoffset: 400;
+		}
+	}
+</style>
+<linearGradient id="패스_363_1_" gradientUnits="userSpaceOnUse" x1="111.9431" y1="-129.091" x2="113.5051" y2="-132.722" gradientTransform="matrix(5.053 0 0 -3.032 -379.053 -131.4968)">
+	<stop  offset="0" style="stop-color:#02BB27"/>
+	<stop  offset="1" style="stop-color:#FFC000"/>
+</linearGradient>
+<linearGradient id="패스_4_1_" gradientUnits="userSpaceOnUse" x1="2.8306" y1="24.7483" x2="90.7556" y2="24.7483">
+	<stop  offset="0" style="stop-color:#FFC000"/>
+	<stop  offset="0.0374" style="stop-color:#FAC001"/>
+	<stop  offset="0.1925" style="stop-color:#EBC003"/>
+	<stop  offset="0.3462" style="stop-color:#D3BF07"/>
+	<stop  offset="0.4949" style="stop-color:#B1BE0C"/>
+	<stop  offset="0.6375" style="stop-color:#85BE13"/>
+	<stop  offset="0.7724" style="stop-color:#50BD1B"/>
+	<stop  offset="0.8966" style="stop-color:#12BB25"/>
+	<stop  offset="1" style="stop-color:#02BB27"/>
+</linearGradient>
+<path id="패스_4" class="st1_htos_pv" d="M2.4,10.12h76.93v190.96"/>
+<g class="wrapper" style="transform: translate(13.9px, -9.8px);">
+<g class="triangle_htos_pv">
+<path id="패스_363" class="st0_htos_pv" d="M3.31,1.25L0.8,4.28h5.05L3.31,1.25z"/>
+</g>
+</g>
+</svg>

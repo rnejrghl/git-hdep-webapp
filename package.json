@@ -1,0 +1,100 @@
+{
+  "name": "hanwha",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "lint": "prettier --config .prettierrc.js --write src/**/*.{js,jsx,ts,tsx,json,css,scss,md}",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "antd": "^3.26.2",
+    "antd-dayjs-webpack-plugin": "^0.0.6",
+    "antd-mobile": "^2.3.1",
+    "axios": "^0.19.0",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^0.9.1",
+    "echarts": "^4.6.0",
+    "echarts-for-react": "^2.0.15-beta.1",
+    "google-map-react": "^1.1.7",
+    "immutability-helper": "^3.0.2",
+    "points-cluster": "^0.1.4",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-app-rewired": "^2.1.5",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
+    "react-dom": "^16.12.0",
+    "react-geocode": "^0.2.1",
+    "react-infinite-scroller": "^1.2.4",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-sticky": "^6.0.3",
+    "redux": "^4.0.4",
+    "redux-localstorage": "^0.4.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3",
+    "sass-vars-to-js": "^0.8.7",
+    "styled-components": "^5.0.0",
+    "ua-parser-js": "^0.7.21"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-react-hooks": "^0.0.0-5de5b6150",
+    "file-loader": "^5.0.2",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^9.5.0",
+    "node-sass": "^4.13.0",
+    "sass": "^1.23.7",
+    "sass-extract": "^2.1.0",
+    "sass-extract-js": "^0.4.0",
+    "sass-extract-loader": "^1.1.0",
+    "sass-loader": "^8.0.0",
+    "svg-sprite-loader": "^4.2.0",
+    "url-loader": "^3.0.0",
+    "yorkie": "^2.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,scss,md}",
+      "git add"
+    ]
+  },
+  "apiConfigs": {
+    "production": {
+      "endPoint": "https://hdep.nectr.com.au/api"
+    },
+    "development": {
+      "// endPoint": "https://hdep2.nectr.com.au/api",
+      "// endPoint": "http://hdep-lb-19205368.ap-southeast-2.elb.amazonaws.com/api", 
+      "// endPoint": "http://hdep-1620198808.ap-northeast-2.elb.amazonaws.com/api",
+      "// endPoint": "http://localhost:8080/api",
+      "endPoint": "http://13.125.249.202:9999/api"
+    }
+  },
+  "googleApi": {
+    "geocoding": "AIzaSyCM_tZXhgSJbTZ7zDR_lh4BehXgZLkS2MQ",
+    "map": "AIzaSyBedMZDd1hUmGM7vluU1ttaXsDiyRya7P8"
+  }
+}

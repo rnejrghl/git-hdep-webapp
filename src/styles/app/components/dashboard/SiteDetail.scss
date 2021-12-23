@@ -1,0 +1,61 @@
+@import '@/styles/variables.scss';
+
+.mobile-site-detail-wrapper {
+  .am-tabs {
+    height: 100%;
+    &-tab-bar-wrap {
+      .am-tabs-default-bar {
+        &-tab {
+          font-size: 14px;
+          color: $grey;
+          &-active {
+            font-family: 'FontBold';
+            color: $primary-color;
+          }
+        }
+        &-underline {
+          border-color: $primary-color;
+        }
+      }
+    }
+    &-content {
+      &-wrap {
+        .am-tabs-pane-wrap {
+          background: $background-color-light;
+          .ant-row-flex {
+            .ant-col {
+              margin-bottom: 10px;
+            }
+            .ant-col:last-child {
+              margin-bottom: 0;
+            }
+          }
+          .ant-card {
+            &-head {
+              background: transparent;
+
+              &-title {
+                font-weight: normal;
+                padding: 20px 0;
+              }
+            }
+          }
+        }
+
+        & .info-wrap {
+          padding: $card-padding-base;
+          background: $white;
+          border: 1px solid $border-color-base;
+          border-radius: 4px;
+
+          .title {
+            margin-bottom: 30px;
+          }
+        }
+
+        & .notification-wrap {
+        }
+      }
+    }
+  }
+}

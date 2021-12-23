@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="grid_home_img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 184 8" style="enable-background:new 0 0 184 6;" xml:space="preserve">
+<style type="text/css">
+	.st0_gtoh {
+		animation: colorchange5 4s linear infinite;
+		transform: scale(2.8);
+	}
+	.st1_gtoh {
+		fill:none;
+		stroke:url(#선_1_1_);
+		stroke-linecap:round;
+		stroke-width: 3px;		
+		stroke-dasharray: 10;
+		stroke-dashoffset: 400;
+		animation:dash5 10s linear infinite;
+	}
+	.triangle_gtoh {
+		transform: translateY(-9px);
+		offset: path('M-535.26,3.15 -330.32,3.15');
+		animation: moveto5 4s linear infinite;
+	}
+	@keyframes moveto5 {
+		from {
+			offset-distance: 0%;
+		}
+		to {
+			offset-distance: 100%;
+		}
+	}
+	@keyframes colorchange5 {
+		from {
+			fill: #007EFC;
+		}
+		to {
+			fill: #02BB27;
+		}
+	}	
+	@keyframes dash5 {
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+</style>
+<linearGradient id="선_1_1_" gradientUnits="userSpaceOnUse" x1="3.0765" y1="3.149" x2="183.1275" y2="3.149" gradientTransform="matrix(-1 0 0 -1 183.8925 6.2991)">
+	<stop  offset="0" style="stop-color:#02BB27"/>
+	<stop  offset="1" style="stop-color:#007EFC"/>
+</linearGradient>
+<line id="선_1" class="st1_gtoh" x1="1.26" y1="3.15" x2="180.32" y2="3.15"/>
+<g class="triangle_gtoh">
+<path id="패스_363-4" class="st0_gtoh" d="M183.35,3.17l-3.03,2.51V0.62L183.35,3.17z"/>
+</g>
+</svg>

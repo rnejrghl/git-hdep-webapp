@@ -1,0 +1,38 @@
+@import '@/styles/variables.scss';
+
+.container {
+  .dashboard-site {
+    background: #1f2539;
+    padding: 26px 20px;
+    overflow: auto;
+
+    .ant-list {
+      .ant-list-empty-text {
+        border: 1px solid $white;
+
+        .ant-empty-description {
+          color: $white;
+        }
+      }
+
+      &-item {
+        & > .ant-badge {
+          display: block;
+
+          .ant-card {
+            &-meta-title {
+              color: $white;
+              font-size: 1.25rem;
+              font-weight: bold;
+              margin-bottom: 1px;
+            }
+            &-meta-description {
+              font-size: 10px;
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

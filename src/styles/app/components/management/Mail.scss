@@ -1,0 +1,40 @@
+@import '@/styles/variables.scss';
+
+.notice-list-wrapper {
+  .common-table {
+    .ant-table {
+      .ant-table-tbody > tr > td {
+        &.email {
+          padding: 0;
+          .ant-descriptions {
+            &-bordered {
+              .ant-descriptions-view {
+                border: none;
+
+                .ant-descriptions-row {
+                  .ant-descriptions-item-label {
+                    width: 30%;
+                    border-bottom: 1px solid $border-color-base;
+                    background: transparent;
+                  }
+                  .ant-descriptions-item-content {
+                    width: 70%;
+                    border-bottom: 1px solid $border-color-base;
+                  }
+                  &:last-child {
+                    .ant-descriptions-item-label {
+                      border-bottom: none;
+                    }
+                    .ant-descriptions-item-content {
+                      border-bottom: none;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

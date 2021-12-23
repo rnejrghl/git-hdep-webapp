@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.842" height="16.94" viewBox="0 0 42.842 16.94">
+    <defs>
+        <style>
+            .cls-1{fill:#707070}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="그룹_206" transform="translate(-940.314 -645.205)">
+        <g id="그룹_7">
+            <path id="사각형_103-3" d="M0 0H38.713V16.94H0z" class="cls-1" transform="translate(940.314 645.205)"/>
+            <path id="사각형_104-2" d="M0 0H4.129V11.778H0z" class="cls-1" transform="translate(979.027 647.786)"/>
+            <g id="사각형_105-2">
+                <path id="사각형_103-4" fill="none" d="M0 0H34.584V12.811H0z" transform="translate(976.379 647.27)"/>
+                <path id="패스_298-2" d="M976.963 660.081h-34.584v-12.81h34.584zm-34.068-.457h33.553v-11.9H942.89z" class="cls-3"/>
+            </g>
+            <!-- <path id="사각형_123" d="M0 0H15.345V12.605H0z" class="cls-3" transform="translate(961.302 647.401)"/> -->
+            <!-- <g id="_22.1_" style="isolation:isolate">
+                <text id="_22.1_2" transform="translate(950.314 655.593)" style="isolation:isolate" fill="#fa7002" font-family="Helvetica" font-size="7px">
+                    <tspan x="0" y="0">22.1%</tspan>
+                </text>
+            </g> -->
+        </g>
+    </g>
+</svg>

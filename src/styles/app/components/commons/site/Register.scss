@@ -1,0 +1,36 @@
+@import '@/styles/variables.scss';
+
+.register-tab {
+  &.ant-tabs {
+    .ant-tabs-tab {
+      font-size: 14px;
+      color: $grey;
+      &-active {
+        font-weight: bold;
+        color: $primary-color;
+      }
+    }
+  }
+  .ant-tabs-content {
+    background-color: $background-color-light;
+    .ant-tabs-tabpane {
+      background-color: $background-color-light;
+      padding: $card-padding-base $card-padding-base 0;
+    }
+
+    .ant-card {
+      &-head {
+        background: transparent;
+
+        &-title {
+          font-weight: normal;
+          padding: 20px 0 0;
+        }
+      }
+    }
+  }
+}
+
+label[for='planTotlCost'] {
+  width: 102px;
+}

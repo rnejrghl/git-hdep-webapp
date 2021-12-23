@@ -1,0 +1,18 @@
+.spinner-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  .ant-spin {
+    .ant-spin-text {
+      margin-top: 20px;
+    }
+    &-lg {
+      .ant-spin-text {
+        font-size: 24px;
+      }
+    }
+  }
+}

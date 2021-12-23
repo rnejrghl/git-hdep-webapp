@@ -1,0 +1,11 @@
+.psidmodal-table .ant-table-thead > tr:first-child > th:first-child {
+  white-space: nowrap;
+}
+
+.psidmodal-table .ant-table-tbody > tr > td:first-child {
+  text-align: center;
+}
+
+.psidmodal-table .ant-table-tbody > tr > td:first-child .ant-radio-wrapper {
+  margin-right: 0px !important;
+}

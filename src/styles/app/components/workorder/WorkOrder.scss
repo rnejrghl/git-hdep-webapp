@@ -1,0 +1,38 @@
+@import '@/styles/variables.scss';
+
+.workorder-container {
+  .summary {
+    .ant-steps {
+      .ant-steps-item-tail {
+        top: 4px;
+        &::after {
+          height: 1px;
+          background: transparent;
+          border-bottom: 1px dashed $border-color-base;
+        }
+      }
+    }
+  }
+}
+
+.workorder-item {
+  padding: $card-padding-base $card-padding-base 0;
+  background: $background-color-light;
+
+  .common-form-wrapper {
+    padding: $card-padding-base;
+    background: $white;
+    border: 1px solid $border-color-base;
+  }
+
+  & > .common-form-wrapper:not(:nth-child(1)) {
+    margin-top: 10px;
+  }
+}
+
+.work-order-modal-padding {
+  .ant-modal-footer {
+    padding: 10px 20px;
+    background-color: $background-color-light;
+  }
+}

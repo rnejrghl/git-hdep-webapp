@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="battery_solar_img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 8 110" style="enable-background:new 0 0 7 110;" xml:space="preserve">
+<style type="text/css">
+	.st0_btos {
+		animation: colorchange3 4s linear infinite;
+		transform: scale(2.1);
+	}
+	.st1_btos {
+		fill:none;
+		stroke:url(#선_2_1_);
+		stroke-linecap:round;
+		stroke-width: 3px;		
+		stroke-dasharray: 10;
+		stroke-dashoffset: 400;
+		animation:dash3 10s linear infinite;
+	}
+	.triangle_btos {
+		transform: rotate(90deg);
+		offset: path('M3.05,108.94 3.05,3.58');
+		animation: moveto3 4s linear infinite;
+	}
+	@keyframes moveto3 {
+		from {
+			stroke: #F96502;
+			offset-distance: 0%;
+		}
+		to {
+			stroke: #FFC000;
+			offset-distance: 100%;
+		}
+	}
+	@keyframes colorchange3 {
+		from {
+			fill: #F96502;
+		}
+		to {
+			fill: #FFC000;
+		}
+	}	
+	@keyframes dash3 {
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+</style>
+<linearGradient id="선_2_1_" gradientUnits="userSpaceOnUse" x1="3.0479" y1="109.4391" x2="3.0479" y2="3.0761">
+	<stop  offset="0" style="stop-color:#F96502"/>
+	<stop  offset="1" style="stop-color:#FFC000"/>
+</linearGradient>
+<line id="선_2" class="st1_btos" x1="3.05" y1="108.94" x2="3.05" y2="3.58"/>
+<g class="wrapper" style="transform: translateX(-6.5px);">
+<g class="triangle_btos">
+<path id="패스_363-5" class="st0_btos" d="M3.07,0.54l2.51,3.03H0.52L3.07,0.54z"/>
+</g>
+</g>
+</svg>

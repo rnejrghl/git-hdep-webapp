@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="battery_grid_img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 96 44.98" style="enable-background:new 0 0 92 47.98;" xml:space="preserve">
+<style type="text/css">
+	.st0_btog {
+		animation: colorchange1 4s linear infinite;
+		transform: scale(3);
+	}
+	.st1_btog {
+		fill:none;
+		stroke:url(#패스_3_1_);
+		stroke-linecap:round;
+		stroke-width: 3px;		
+		stroke-dasharray: 10;
+		stroke-dashoffset: 400;
+		animation:dash1 10s linear infinite;
+	}
+	.triangle_btog {
+		transform: rotate(180deg);
+		offset: path('M3.4,4.12h80.53v43.96');
+		animation: moveto1 4s linear infinite;
+	}
+	@keyframes moveto1 {
+		from {
+			offset-distance: 0%;
+		}
+		to {
+			offset-distance: 100%;
+		}
+	}
+	@keyframes colorchange1 {
+		from {
+			fill: #F96502;
+		}
+		to {
+			fill: #007EFC;
+		}
+	}	
+	@keyframes dash1 {
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+</style>
+<linearGradient id="패스_3_1_" gradientUnits="userSpaceOnUse" x1="2.8964" y1="25.0977" x2="90.8233" y2="25.0977">
+	<stop  offset="0" style="stop-color:#F96502"/>
+	<stop  offset="1" style="stop-color:#007EFC"/>
+</linearGradient>
+<path id="패스_3" class="st1_btog" d="M3.4,3.12h84.93v43.96"/>
+<g class="wrapper" style="transform: translate(-4.8px, 8.2px);">
+<g class="triangle_btog">
+<path id="패스_363" class="st0_btog" d="M0.41,3.14l3.03,2.51V0.59L0.41,3.14z"/>
+</g>
+</g>
+</svg>

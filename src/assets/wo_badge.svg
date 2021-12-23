@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#424F70" d="M0 0L30 0 30 22.823 15 30 0 22.823z"/>
+        <text fill="#FFF" font-family="SpoqaHanSans-Regular, SpoqaHanSans" font-size="10">
+            <tspan x="5" y="17">W/O</tspan>
+        </text>
+    </g>
+</svg>

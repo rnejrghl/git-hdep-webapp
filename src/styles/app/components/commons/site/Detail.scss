@@ -1,0 +1,569 @@
+@import '@/styles/variables.scss';
+.site-detail {
+  &.ant-card {
+    .ant-card-head-title {
+      .site-name {
+        font-family: 'FontBold';
+      }
+    }
+  }
+}
+.detail-wrapper {
+  .ant-tabs {
+    .ant-tabs-tab {
+      font-size: 14px;
+      color: $grey;
+      &-active {
+        font-family: 'FontBold';
+        color: $primary-color;
+      }
+    }
+    .ant-tabs-content {
+      & > .ant-tabs-tabpane {
+        border-radius: 0 0 4px 4px;
+        overflow: hidden;
+        &.tabpane-padding {
+          padding: 10px 20px 20px;
+          &.tabpane-padding-bg {
+            background-color: $background-color-light;
+          }
+        }
+        .ant-card {
+          &-head {
+            background: transparent;
+            &-title {
+              font-weight: normal;
+              padding: 20px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  & .info-wrap {
+    padding: 30px $card-padding-base * 2 $card-padding-base;
+    .title {
+      margin-bottom: 20px;
+    }
+  }
+  & .kpi-wrap {
+    .ant-card {
+      &-head-title {
+        padding: 10px 0 20px !important;
+      }
+    }
+  }
+  & .raw-wrap {
+    &.ant-card {
+      .ant-card-head-title {
+        padding: 10px 0 20px !important;
+      }
+      .tag-wrapper {
+        margin: 0 0 20px;
+      }
+    }
+  }
+}
+.ant-col {
+  .tag {
+    font-family: SpoqaHanSans;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 4px auto;
+  }
+  .amount {
+    width: 100px;
+    height: 16px;
+    font-family: SpoqaHanSans;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+  .amount2 {
+    //width: 100px;
+    height: 16px;
+    font-family: SpoqaHanSans;
+    font-size: 11px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+  .label {
+    width: 100px;
+    height: 16px;
+    font-family: SpoqaHanSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+}
+.control-col2 {
+  .tag {
+    font-family: SpoqaHanSans;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin: 4px auto;
+  }
+  .amount {
+    width: 100px;
+    height: 16px;
+    font-family: SpoqaHanSans;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+  .amount2 {
+    //width: 100px;
+    height: 16px;
+    font-family: SpoqaHanSans;
+    font-size: 11px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+  .label {
+    width: 100px;
+    height: 16px;
+    font-family: SpoqaHanSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+  }
+  tr {
+    height: 50px;
+    th {
+      text-align: center;
+      border-right: 1px solid #cbcbcb;
+    }
+  }
+  td {
+    border-right: 1px solid #cbcbcb;
+  }
+  ul {
+    padding: 0;
+    margin: 15px;
+  }
+  .ant-table-wrapper {
+    border-top: 1px solid #cbcbcb;
+    border-left: 1px solid #cbcbcb;
+    margin-bottom: 20px;
+  }
+  .td-center {
+    text-align: center;
+  }
+  .td-center-max-limit {
+    text-align: center;
+    width: 160px;
+  }
+  .ant-input {
+    width: 130px;
+    display: inline-block;
+  }
+  .ant-select-selection {
+    display: inline-block;
+  }
+  .ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td,
+  .ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row) > td,
+  .ant-table-thead > tr:hover:not(.ant-table-expanded-row) > td,
+  .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+    background: unset !important;
+  }
+}
+.controlSubBoxCur {
+  width: 270px;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 5px;
+  .tit {
+    width: 140px;
+    background-color: #f3f3f6;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .conts {
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    float: left;
+    .sandybrown {
+      color: sandybrown;
+    }
+  }
+}
+.controlSubBox {
+  width: 420px;
+  height: 40px;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 5px;
+  .tit {
+    width: 140px;
+    background-color: #f3f3f6;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .conts {
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    float: left;
+    .sandybrown {
+      color: sandybrown;
+    }
+  }
+  .ant-input {
+    width: 100px;
+  }
+  .ant-select-selection {
+    width: 100px;
+  }
+}
+.btnWrap {
+  margin-top: 20px;
+}
+.pv_flow_inner {
+  width: 330px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.pv_flow_row {
+  display: flex;
+}
+.pv_part_title {
+  display: block;
+  margin: 7.5px 0 2px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+.pv_part_icon {
+  display: block;
+  margin: 0 auto;
+}
+.pv_part_watt {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 3px;
+}
+.status {
+  width: 83px;
+  height: 190px;
+  margin: 26px 15px 15px 29px;
+  position: relative;
+}
+.status .no-flow {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 100%;
+  height: 184px;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+.status .status_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 190px;
+  transform: scaleX(-1);
+}
+.status .solar_to_home_watt {
+  margin-top: -20px;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+.solar_box {
+  width: 72px;
+  height: 72px;
+  /* margin: -34.6px 9.8px 0; */
+  border: 1px solid #ffc000;
+  border-radius: 7.5px;
+}
+.solar_grid_line {
+  width: 83px;
+  height: 184px;
+  margin: 37px 34px 12px 10px;
+  border-top: 3px solid #dddddd;
+  border-right: 3px solid #dddddd;
+}
+.home_box {
+  width: 72px;
+  height: 72px;
+  margin: 0;
+  border: 1px solid #02bb27;
+  border-radius: 7.5px;
+}
+.home_grid_line {
+  margin: 34px 10px 0;
+  height: 3px;
+  width: 165px;
+  background: #dddddd;
+}
+.grid_box {
+  width: 72px;
+  height: 72px;
+  margin: 0;
+  border: 1px solid #007efc;
+  border-radius: 7.5px;
+}
+/* ess_flow */
+.ess_flow_inner {
+  width: 347px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.ess_flow_row {
+  display: flex;
+}
+.sola_home_status {
+  width: 90px;
+  height: 44px;
+  margin: 40px 14.5px 16.7px 34.5px;
+  position: relative;
+}
+.sola_home_status .no-flow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 3px solid #dddddd;
+  border-left: 3px solid #dddddd;
+}
+.sola_home_status .status_img {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 90px;
+  height: 54px;
+}
+.solar_grid_status {
+  width: 90px;
+  height: 54px;
+  margin: 40px 34.5px 16.7px 14.5px;
+  position: relative;
+}
+.solar_grid_status .no-flow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 3px solid #dddddd;
+  border-right: 3px solid #dddddd;
+}
+.solar_grid_status .status_img {
+  position: absolute;
+  top: -7px;
+  left: 7px;
+  width: 90px;
+  height: 54px;
+}
+.home_grid_status {
+  width: 179.1px;
+  height: 105.4px;
+  margin: -18px 10.2px 11.4px;
+  position: relative;
+}
+.home_grid_status .no-flow-horizontal {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #dddddd;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.home_grid_status .am-icon-grid_home.status_img.horizontal {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  width: 179.1px;
+  height: 100%;
+}
+.home_grid_status .am-icon-home_grid.status_img.horizontal {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 179.1px;
+  height: 100%;
+}
+.home_grid_status .am-icon-solar_battery.status_img.vertical {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+  height: 105.4px;
+  width: 100%;
+}
+.home_grid_status .am-icon-battery_solar.status_img.vertical {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 105.4px;
+  width: 100%;
+}
+.home_grid_status .no-flow-vertical {
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: #dddddd;
+  transform: translateX(-50%);
+}
+.home_baterry_status {
+  width: 90px;
+  height: 44px;
+  margin: 0 14.5px 0 34.5px;
+  position: relative;
+}
+.home_baterry_status .no-flow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-left: 3px solid #dddddd;
+  border-bottom: 3px solid #dddddd;
+}
+.home_baterry_status .status_img {
+  position: absolute;
+  top: 1px;
+  left: -7px;
+  width: 90px;
+  height: 51px;
+}
+.battery_box {
+  width: 72px;
+  height: 76px;
+  margin: 0;
+  border: 1px solid #f96502;
+  border-radius: 7.5px;
+}
+.battery_box .pv_part_icon {
+  margin-top: 8px;
+}
+.grid_battery_status {
+  width: 90px;
+  height: 44px;
+  margin: 0 34.5px 0 14.5px;
+  position: relative;
+}
+.grid_battery_status .no-flow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #dddddd;
+  border-right: 3px solid #dddddd;
+}
+.grid_battery_status .status_img {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  width: 87px;
+  height: 49px;
+}
+.solar_home_watt {
+  display: block;
+  padding: 15px;
+}
+.solar_grid_watt {
+  display: block;
+  padding: 15px;
+}
+.home_grid_watt {
+  padding-top: 25px;
+  float: right;
+}
+.solar_battery_watt {
+  float: right;
+  padding-right: 77px;
+}
+.home_baterry_watt {
+  display: block;
+  padding: 15px;
+}
+.grid_battery_watt {
+  display: block;
+  padding: 15px;
+}
+.am-icon-grid_battery {
+  transform: scaleX(-1);
+}
+.am-icon-battery_home {
+  transform: scale(-1, -1);
+}
+.am-icon-home_solar2 {
+  transform: scaleY(-1);
+}
+.am-icon-battery_grid {
+  transform: scaleY(-1);
+}
+.am-icon-grid_solar {
+  transform: scale(-1, -1);
+}
+.am-icon-solar_home2 {
+  transform: scaleX(-1);
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  font-size: 11px;
+}

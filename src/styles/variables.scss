@@ -1,0 +1,126 @@
+// 전역으로 사용할 sass 변수를 지정합니다.
+// 수정후 재시작시 적용됩니다.
+
+// ant-component에 주입될 변수를 선언합니다.
+// https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+// https://github.com/ant-design/ant-design-mobile/blob/master/components/style/themes/default.less
+
+// colors
+$primary-color: #2c79f4;
+$grey: #979797;
+$white: #ffffff;
+$black: #000000;
+$red: #db0012;
+
+// font
+$font-family: 'FontRegular', 'Sans-serif';
+$text-color: #202124;
+$font-size-base: 12px;
+
+$font-size-lg: 14px;
+$font-size-sm: 10px;
+
+// Layout
+$outline-width: 0;
+$outline-fade: 0;
+
+$background-color-light: #f3f3f6;
+$layout-body-background: #ffffff;
+$layout-header-background: #26304b;
+$layout-header-height: 56px;
+$layout-header-padding: 0px;
+
+// Card
+$card-head-color: #ffffff;
+$card-head-background: #424f70;
+
+$card-padding-base: 20px;
+$card-head-padding: 12px;
+$card-radius: 4px;
+$card-shadow: 'none';
+
+// Border color
+$border-color-base: #cbcbcb; // base border outline a component
+$border-color-split: #cbcbcb; // split border inside a component
+$border-width-base: 1px;
+
+// Modal
+$modal-body-padding: 20px;
+$modal-header-bg: #424f70;
+$modal-header-border-color-split: transparent;
+$modal-heading-color: #ffffff;
+$modal-footer-border-color-split: transparent;
+
+// Statistic
+$statistic-title-font-size: 18px;
+$statistic-content-font-size: 24px;
+$statistic-unit-font-size: 12px;
+
+// Table
+$table-border-radius-base: 0;
+$table-padding-vertical: 3px;
+
+// Button
+$btn-height-base: 30px;
+
+$btn-default-bg: #ffffff;
+$btn-default-color: #c5c5cc;
+$btn-default-border: #c5c5cc;
+
+$btn-danger-color: #db0012;
+$btn-danger-bg: #ffffff;
+$btn-danger-border: #db0012;
+
+// Input
+$input-height-base: 30px;
+$input-border-color: #f3f3f6;
+$input-addon-bg: transparent;
+$input-hover-border-color: #c5c5cc;
+$input-disabled-bg: #ffffff;
+$input-placeholder-color: #202124;
+
+// Select
+$select-border-color: #f3f3f6;
+$select-background: #ffffff;
+
+// Radio
+$radio-size: 8px;
+$radtio-solid-checked-color: #ffffff;
+
+//Form
+$form-item-margin-bottom: 4px;
+
+// Drawer
+
+// Menu
+$menu-inline-toplevel-item-height: 48px;
+$menu-item-height: 48px;
+$menu-item-active-bg: transparent;
+$menu-item-active-border-width: 0;
+
+$menu-item-color: #a8acb7;
+$menu-highlight-color: #202124;
+$menu-item-group-title-color: #a8acb7;
+
+// dark theme
+$menu-dark-color: #a8acb7;
+$menu-dark-bg: #26304b;
+$menu-dark-arrow-color: #ffffff;
+$menu-dark-submenu-bg: #1f2639;
+$menu-dark-highlight-color: #fff;
+$menu-dark-item-active-bg: transparent;
+$menu-dark-selected-item-icon-color: #ffffff;
+$menu-dark-selected-item-text-color: #ffffff;
+$menu-dark-item-hover-bg: transparent;
+
+// Alert
+$alert-info-border-color: transparent;
+$alert-info-bg-color: transparent;
+$alert-info-icon-color: transparent;
+$alert-message-color: #202124;
+$alert-text-color: #202124;
+
+// Tag
+$tag-default-bg: #ffffff;
+$tag-default-color: #202124;
+$tag-font-size: 14px;

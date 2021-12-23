@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="solar_home_img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 98 48" style="enable-background:new 0 0 92 45.98;" xml:space="preserve">
+<style type="text/css">
+	.st0_stoh {
+		animation: colorchange12 4s linear infinite;
+		transform: scale(3);
+	}
+	.st1_stoh {
+		fill:none;
+		stroke:url(#패스_3_1_);
+		stroke-linecap:round;
+		stroke-width: 3px;		
+		stroke-dasharray: 10;
+		stroke-dashoffset: 400;
+		animation:dash12 10s linear infinite;
+	}
+	.triangle_stoh {
+		transform: rotate(180deg);
+		offset: path('M3.4,3.12h80.53v43.96');
+		animation: moveto12 4s linear infinite;
+	}
+	@keyframes moveto12 {
+		from {
+			offset-distance: 0%;
+		}
+		to {
+			offset-distance: 100%;
+		}
+	}
+	@keyframes colorchange12 {
+		from {
+			fill: #FFC000;
+		}
+		to {
+			fill: #02BB27;
+		}
+	}	
+	@keyframes dash12 {
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+</style>
+<linearGradient id="패스_3_1_" gradientUnits="userSpaceOnUse" x1="2.8964" y1="25.0977" x2="90.8233" y2="25.0977">
+	<stop  offset="0" style="stop-color:#FFC000"/>
+	<stop  offset="1" style="stop-color:#02BB27"/>
+</linearGradient>
+<path id="패스_3" class="st1_stoh" d="M3.4,3.12h86.93v43.96"/>
+<g class="wrapper" style="transform: translate(-3px, 9.5px);">
+<g class="triangle_stoh">
+<path id="패스_363" class="st0_stoh" d="M0.41,3.14l3.03,2.51V0.59L0.41,3.14z" style="transform: sclae(2);"/>
+</g>
+</g>
+</svg>
+
