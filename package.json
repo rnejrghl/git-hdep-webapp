@@ -72,9 +72,6 @@
       "last 1 safari version"
     ]
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,scss,md}",
@@ -86,9 +83,6 @@
       "endPoint": "https://hdep.nectr.com.au/api"
     },
     "development": {
-      "// endPoint": "https://hdep2.nectr.com.au/api",
-      "// endPoint": "http://hdep-lb-19205368.ap-southeast-2.elb.amazonaws.com/api", 
-      "// endPoint": "http://hdep-1620198808.ap-northeast-2.elb.amazonaws.com/api",
       "// endPoint": "http://localhost:8080/api",
       "endPoint": "http://13.125.249.202:9999/api"
     }
